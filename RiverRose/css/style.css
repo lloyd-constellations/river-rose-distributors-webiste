@@ -8255,7 +8255,7 @@ backdrop-filter: blur(5px);
         padding-right: 0;
         /* padding-top: 5.9rem; */
         padding-bottom: 0.9rem;
-        color: #fff; }
+        color: #c8a97e; }
         .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
           color: #fff; } }
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
@@ -8307,7 +8307,7 @@ backdrop-filter: blur(5px);
     color: #c8a97e; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-        color: #fff; } }
+        color: #c8a97e; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
     color: rgba(255, 255, 255, 0.5) !important;
@@ -8485,6 +8485,7 @@ backdrop-filter: blur(5px);
       z-index: 0; }
       @media (max-width: 1199.98px) {
         .owl-carousel.home-slider .slider-item {
+          background-size:contain;
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .overlay {
         position: absolute;
