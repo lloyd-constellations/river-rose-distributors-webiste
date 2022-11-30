@@ -8237,7 +8237,7 @@ h1, h2, h3, h4, h5,
       padding-bottom: 0px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     /* background:rgba(0,0,0,.7); */
-backdrop-filter: blur(5px);
+backdrop-filter: blur(10px);
     font-size: 14px;
     /* padding-top:-10px; */
     padding-left: 20px;
