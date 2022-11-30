@@ -3426,6 +3426,7 @@ input[type="button"].btn-block {
   display: block; }
 
 .navbar {
+  
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3439,8 +3440,14 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem; }
+
+
+
+
   .navbar > .container,
   .navbar > .container-fluid {
+    /* margin-top: -40px; */
+    height: 110px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3451,7 +3458,19 @@ input[type="button"].btn-block {
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between; }
+    justify-content: space-between; 
+  
+  
+  
+  }
+  /* @media (max-width: 575.98px) {
+    .navbar > .container,
+  .navbar > .container-fluid{
+    margin-top: -10px;
+      padding-right: 0;
+      padding-left: 0; } } */
+
+
 
 .navbar-brand {
   display: inline-block;
@@ -3521,6 +3540,15 @@ input[type="button"].btn-block {
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
+
+
+    @media (max-width: 575.98px) {
+      .navbar-expand-sm > .container-fluid {
+        margin-top: 50px;
+        padding-right: 0;
+        padding-left: 0; } }
+
+
 
 @media (min-width: 576px) {
   .navbar-expand-sm {
@@ -8185,14 +8213,17 @@ h1, h2, h3, h4, h5,
   padding: 0; }
   @media (min-width: 992px) {
     .ftco-navbar-light {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      
+      height: 30px;
+      /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
       padding-bottom: 10px; } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
       background: #000000 !important;
       position: relative;
       top: 0;
-      padding: 10px 15px; } }
+      padding: 10px 15px;
+     } }
   .ftco-navbar-light .navbar-brand {
     color: #fff; }
     .ftco-navbar-light .navbar-brand:hover, .ftco-navbar-light .navbar-brand:focus {
@@ -8202,11 +8233,13 @@ h1, h2, h3, h4, h5,
         color: #fff; } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
-      padding-bottom: 10px; } }
+      
+      padding-bottom: 0px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    /* background:rgba(0,0,0,.7); */
+backdrop-filter: blur(5px);
     font-size: 14px;
-    padding-top: .8rem;
-    padding-bottom: .8rem;
+    /* padding-top:-10px; */
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 400;
@@ -8216,11 +8249,13 @@ h1, h2, h3, h4, h5,
       color: #fff; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+ 
+   
         padding-left: 0;
         padding-right: 0;
-        padding-top: .9rem;
-        padding-bottom: .9rem;
-        color: rgba(255, 255, 255, 0.7); }
+        /* padding-top: 5.9rem; */
+        padding-bottom: 0.9rem;
+        color: #fff; }
         .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
           color: #fff; } }
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
@@ -8288,6 +8323,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     left: 0;
     top: 0;
+   
     margin-top: -130px;
     background: #fff !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -8313,13 +8349,11 @@ h1, h2, h3, h4, h5,
       border-color: #c8a97e; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light.scrolled .navbar-nav {
-        background: none;
         border-radius: 0px;
         padding-left: 0rem !important;
         padding-right: 0rem !important; } }
     @media (max-width: 767.98px) {
       .ftco-navbar-light.scrolled .navbar-nav {
-        background: none;
         padding-left: 0 !important;
         padding-right: 0 !important; } }
     .ftco-navbar-light.scrolled .navbar-toggler {
@@ -8334,14 +8368,23 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-link {
       padding-top: 0.7rem !important;
       padding-bottom: 0.7rem !important;
-      color: #000000 !important; }
+      color: #c8a97e !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #c8a97e !important; }
     .ftco-navbar-light.scrolled.awake {
+      height: 80px;
       margin-top: 0px;
       -webkit-transition: .3s all ease-out;
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
+
+
+      @media (max-width: 1199.98px) {
+        .ftco-navbar-light.scrolled.awake {
+          margin-top: -50px; 
+        height: 130px;} }
+
+
     .ftco-navbar-light.scrolled.sleep {
       -webkit-transition: .3s all ease-out;
       -o-transition: .3s all ease-out;
