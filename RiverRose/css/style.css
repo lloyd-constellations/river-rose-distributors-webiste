@@ -57,7 +57,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff; 
+  overflow-x: hidden;}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -8485,9 +8486,12 @@ backdrop-filter: blur(10px);
       z-index: 0; }
       @media (max-width: 1199.98px) {
         .owl-carousel.home-slider .slider-item {
+        
+      
           background-size:contain;
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .overlay {
+        overflow-y: scroll;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -8497,7 +8501,7 @@ backdrop-filter: blur(10px);
         opacity: .7; }
       .owl-carousel.home-slider .slider-item .slider-text {
         color: #fff;
-        height: 750px;
+        height: 250px;
         text-align: right; }
         @media (max-width: 767.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
