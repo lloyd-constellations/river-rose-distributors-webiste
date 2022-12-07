@@ -9255,9 +9255,10 @@ textarea.form-control {
     color: #c8a97e; }
 
 #map {
-   }
-  @media (max-width: 767.98px) {
+  width: 50%; }
+  @media (max-width: 567.98px) {
     #map {
+
       height: 300px; 
       margin-top: 50px;
       margin-bottom: 200px;} }
