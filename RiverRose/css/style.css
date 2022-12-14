@@ -8225,7 +8225,7 @@ h1, h2, h3, h4, h5,
       background: #000000 !important;
       position: relative;
       top: 0;
-      padding: 10px 15px;
+      padding: 10px 14px;
       width: 420px;
      } }
   .ftco-navbar-light .navbar-brand {
@@ -8237,15 +8237,16 @@ h1, h2, h3, h4, h5,
         color: #fff; } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
-      
+      margin-top: -20px;
+      margin-left: -40px;
       padding-bottom: 0px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    /* background:rgba(0,0,0,.7); */
+    background:rgba(0,0,0,.7);
     backdrop-filter: blur(120px);
     font-size: 14px;
     
     /* padding-top:-10px; */
-    padding-left: 70px;
+    /* padding-left: 30px; */
     padding-right: 20px;
     font-weight: 400;
     color: gray;
