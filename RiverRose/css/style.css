@@ -8241,7 +8241,7 @@ h1, h2, h3, h4, h5,
       margin-left: -40px;
       padding-bottom: 0px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    background:rgba(0,0,0,.7);
+   
     backdrop-filter: blur(120px);
     font-size: 14px;
     
